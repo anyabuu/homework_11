@@ -1,0 +1,25 @@
+body,
+html {
+    font-family: "Libre Franklin";
+    font-size: 10px;
+    color: #333333;
+}
+
+
+.container {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width:75%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 375px;
+    }
+}
